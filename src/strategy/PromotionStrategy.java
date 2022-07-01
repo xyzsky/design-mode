@@ -12,7 +12,7 @@ public interface PromotionStrategy {
 
     /**
      * @param goodsId 代表物品ID
-     * @return 整型（1 代表满减促销； 2 代表折扣促销； 3 代表秒杀促销）
+     * @return 整型（0 代表满减促销； 1 代表折扣促销； 2 代表秒杀促销）
      */
     int recommend(String goodsId);
 }
